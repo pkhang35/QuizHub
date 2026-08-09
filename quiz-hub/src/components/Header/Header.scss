@@ -1,0 +1,116 @@
+.header{
+    
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 30px 0 24px;
+    }
+    &__logo{
+        width: 150px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__nav{
+
+    }
+    &__menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    &__item{
+        font-size: 24px;
+        font-weight: 600;
+        
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:5px;
+        color:gray;
+        position: relative;
+
+        span{
+            margin-right: 5px;
+        }
+
+        &:hover{
+            color: #574FF5;
+        }
+
+        
+        &::after{
+            width: 0;
+            height: 2px;
+            background-color: #574FF5;
+            content:'';
+            position: absolute;
+            bottom: 0;
+            left: 45%;
+            transform: translateX(-45%);
+            transition: width 0.3s ease;
+
+        }
+
+        &:hover::after{
+             width: 90%;
+        }
+
+        &--active{
+            color:#574FF5;
+        }
+
+        &--active::after {
+            width: 90%;
+        }
+    }
+    
+    &__right{
+        display: flex;
+        align-items: center;
+    }
+    &__search{
+        margin-right: 20px;
+    }
+
+
+    &__btn{
+        height: 35px;
+        padding: 0 18px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__btn--login{
+        color:#574FF5;
+        border-color:#574FF5;
+        background-color:transparent ;
+        margin-right: 10px;
+        &:hover {
+            color: #574ff5 !important;
+            border-color: #574ff5 !important;
+            background-color: rgba(87, 79, 245, 0.08) !important;
+        }
+    }
+      &__btn--register {
+        color: #fff;
+        border-color: #574ff5;
+        background-color: #574ff5;
+
+        &:hover {
+            color: #fff !important;
+            border-color: #6b64f7 !important;
+            background-color: #6b64f7 !important;
+        }
+    }
+
+}

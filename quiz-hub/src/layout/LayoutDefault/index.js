@@ -1,5 +1,9 @@
+import { Layout } from 'antd';
 import {  Link, NavLink, Outlet } from "react-router-dom"
 import "./LayoutDefault.scss"
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+const { Content} = Layout;
 function LayoutDefault(){
     // const navLickActive=(e)=>{
     //     console.log(e)
@@ -7,24 +11,16 @@ function LayoutDefault(){
     // }
     return(
         <>
-        <div className="layout-default">
-           <header className="layout-default__header">
-            <div className="layout-default__logo">Logo</div>
-            <div className="menu">
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                </ul>
-            </div>
-           </header>
-           <main className="layout-default__main">
-            <Outlet/>
-           </main>
-           <footer className="layout-default__footer">
-            Copyright @2026 by khang
-           </footer>
-        </div>
+            <Layout className="layout-default">
+                <Header/>
+
+                <Content className="layout-default__main">
+                    <Outlet />
+                </Content>
+
+                <Footer/>
+
+            </Layout>
         </>
     )
 }

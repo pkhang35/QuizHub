@@ -1,0 +1,140 @@
+.footer {
+    background-color:#464040;
+    color: #ffffff;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 24px 24px;
+    }
+
+    // =========================
+    // TOP
+    // =========================
+
+    &__top {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 80px;
+
+        padding-bottom: 50px;
+    }
+
+    // =========================
+    // BRAND
+    // =========================
+
+    &__brand {
+        max-width: 360px;
+    }
+
+    &__logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        width: 150px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        span {
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+
+    &__description {
+        margin-top: 18px;
+
+        color: #9ca3af;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    // =========================
+    // COLUMN
+    // =========================
+
+    &__title {
+        margin-bottom: 20px;
+
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+
+        a {
+            color: #9ca3af;
+            text-decoration: none;
+
+            font-size: 14px;
+
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: #574ff5;
+            }
+        }
+    }
+
+    // =========================
+    // BOTTOM
+    // =========================
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 24px;
+
+        border-top: 1px solid #374151;
+    }
+
+    &__copyright {
+        margin: 0;
+
+        color: #6b7280;
+        font-size: 13px;
+    }
+
+    // =========================
+    // SOCIAL
+    // =========================
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #9ca3af;
+            font-size: 20px;
+
+            transition: all 0.2s ease;
+
+            &:hover {
+                color: #574ff5;
+                transform: translateY(-2px);
+            }
+        }
+    }
+}
