@@ -88,23 +88,95 @@
   "topics": [
     {
       "id": 1,
-      "name": "HTML5"
+      "name": "HTML5",
+      "image":"https://www.svgrepo.com/show/452228/html-5.svg"
     },
     {
       "id": 2,
-      "name": "CSS3"
+      "name": "CSS3",
+      "image":"https://www.svgrepo.com/show/349330/css3.svg"
     },
     {
       "id": 3,
-      "name": "JavaScript"
+      "name": "JavaScript",
+      "image":"https://www.svgrepo.com/show/349419/javascript.svg"
+
     },
     {
       "id": 4,
-      "name": "ReactJS"
+      "name": "ReactJS",
+      "image":"https://www.svgrepo.com/show/374032/reactjs.svg"
     },
     {
       "id": 5,
-      "name": "Git"
+      "name": "Git",
+      "image":"https://www.svgrepo.com/show/452210/git.svg"
+
+    },
+     {
+      "id": 6,
+      "name": "TypeScript",
+      "image": "https://www.svgrepo.com/show/374146/typescript-official.svg"
+    },
+    {
+      "id": 7,
+      "name": "NodeJS",
+      "image": "https://www.svgrepo.com/show/452075/node-js.svg"
+    },
+    {
+      "id": 8,
+      "name": "VueJS",
+      "image": "https://www.svgrepo.com/show/303494/vue-9-logo.svg"
+    },
+    {
+      "id": 9,
+      "name": "Angular",
+      "image": "https://www.svgrepo.com/show/452156/angular.svg"
+    },
+    {
+      "id": 10,
+      "name": "Python",
+      "image": "https://www.svgrepo.com/show/452091/python.svg"
+    },
+    {
+      "id": 11,
+      "name": "Java",
+      "image": "https://www.svgrepo.com/show/452234/java.svg"
+    },
+    {
+      "id": 12,
+      "name": "PHP",
+      "image": "https://www.svgrepo.com/show/452088/php.svg"
+    },
+    {
+      "id": 13,
+      "name": "Docker",
+      "image": "https://www.svgrepo.com/show/448221/docker.svg"
+    },
+    {
+      "id": 14,
+      "name": "Tailwind CSS",
+      "image": "https://www.svgrepo.com/show/374118/tailwind.svg"
+    },
+    {
+      "id": 15,
+      "name": "Bootstrap",
+      "image": "https://www.svgrepo.com/show/353498/bootstrap.svg"
+    },
+    {
+      "id": 16,
+      "name": "NextJS",
+      "image": "https://www.svgrepo.com/show/354113/nextjs-icon.svg"
+    },
+    {
+      "id": 17,
+      "name": "Redux",
+      "image": "https://www.svgrepo.com/show/452093/redux.svg"
+    },
+    {
+      "id": 18,
+      "name": "Sass",
+      "image": "https://www.svgrepo.com/show/374061/sass.svg"
     }
   ],
   "questions": [

@@ -10,6 +10,7 @@ import heroImage from "../../assets/images/heroImage.png";
 import createQuiz from "../../assets/images/create-question.png";
 import createTopic from "../../assets/images/create-topics.png";
 import "./Home.scss"
+import PopularTopics from './PopularTopics';
 function Home(){
     return(
         <>
@@ -163,8 +164,7 @@ function Home(){
                     </div>
                 </div>
             </section>
-
-            
+            <PopularTopics/>
         </>
     )
 }
