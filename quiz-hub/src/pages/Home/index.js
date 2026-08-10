@@ -11,7 +11,11 @@ import createQuiz from "../../assets/images/create-question.png";
 import createTopic from "../../assets/images/create-topics.png";
 import "./Home.scss"
 import PopularTopics from './PopularTopics';
+import PopularQuizzes from './PopularQuizzes';
+import WhyDevQuiz from './WhyDevQuiz';
+import CTA from './CTA';
 function Home(){
+    
     return(
         <>
             <section className="hero">
@@ -165,6 +169,9 @@ function Home(){
                 </div>
             </section>
             <PopularTopics/>
+            <PopularQuizzes/>
+            <WhyDevQuiz/>
+            <CTA/>
         </>
     )
 }

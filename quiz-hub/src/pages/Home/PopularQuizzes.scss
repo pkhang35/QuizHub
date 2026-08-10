@@ -1,0 +1,252 @@
+.popular-quizzes {
+    padding: 90px 0;
+    background-color: #f8f8ff;
+
+    // =========================
+    // HEADING
+    // =========================
+
+    &__heading {
+        max-width: 650px;
+        margin: 0 auto 45px;
+        text-align: center;
+    }
+
+    &__title {
+        margin: 0 0 14px;
+
+        color: #1f2937;
+
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__description {
+        margin: 0;
+
+        color: #6b7280;
+
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+    // =========================
+    // CARD
+    // =========================
+
+    &__card {
+        height: 100%;
+
+        overflow: hidden;
+
+        border: 1px solid #eeeeee;
+        border-radius: 18px;
+
+        background-color: #ffffff;
+
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-6px);
+
+            box-shadow: 0 15px 35px rgba(87, 79, 245, 0.12);
+        }
+
+        .ant-card-body {
+            padding: 0;
+        }
+    }
+
+
+    // =========================
+    // TOP IMAGE
+    // =========================
+
+    &__visual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 160px;
+
+        padding: 25px;
+
+        background-color:#574ff5;
+
+        img {
+            width: 90px;
+            height: 90px;
+
+            object-fit: contain;
+
+            transition: transform 0.3s ease;
+        }
+    }
+
+    &__card:hover &__visual img {
+        transform: scale(1.08);
+    }
+
+
+    // =========================
+    // CONTENT
+    // =========================
+
+    &__content {
+        padding: 22px;
+    }
+
+
+    // =========================
+    // META
+    // =========================
+
+    &__meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 14px;
+    }
+
+    &__meta .ant-tag {
+        margin: 0;
+
+        border-radius: 6px;
+
+        font-weight: 600;
+    }
+
+
+    // =========================
+    // RATING
+    // =========================
+
+    &__rating {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        .ant-rate {
+            font-size: 14px;
+        }
+
+        span {
+            color: #6b7280;
+
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+
+
+    // =========================
+    // TOPIC
+    // =========================
+
+    &__topic {
+        display: inline-block;
+
+        margin-bottom: 7px;
+
+        color: #574ff5;
+
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+
+    // =========================
+    // TITLE
+    // =========================
+
+    &__quiz-title {
+        margin: 0 0 8px;
+
+        color: #1f2937;
+
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    // =========================
+    // DESCRIPTION
+    // =========================
+
+    &__quiz-description {
+        min-height: 48px;
+
+        margin: 0 0 20px;
+
+        color: #6b7280;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    // =========================
+    // FOOTER
+    // =========================
+
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 15px;
+
+        border-top: 1px solid #eeeeee;
+
+        span {
+            color: #6b7280;
+
+            font-size: 14px;
+        }
+    }
+
+
+    // =========================
+    // BUTTON
+    // =========================
+
+    &__button {
+        padding: 0;
+
+        color: #574ff5;
+
+        font-weight: 600;
+
+        &:hover {
+            color: #4038d8 !important;
+        }
+    }
+
+
+    // =========================
+    // ACTION
+    // =========================
+
+    &__action {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 40px;
+
+        .ant-btn-primary {
+            border-radius: 8px;
+
+            background-color: #574ff5;
+
+            box-shadow: none;
+
+            &:hover {
+                background-color: #463ee0 !important;
+            }
+        }
+    }
+}

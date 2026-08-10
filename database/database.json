@@ -179,10 +179,57 @@
       "image": "https://www.svgrepo.com/show/374061/sass.svg"
     }
   ],
-  "questions": [
+  "quizzes": [
     {
       "id": 1,
       "topicId": 1,
+      "title": "HTML5 Cơ bản",
+      "description": "Kiểm tra kiến thức của bạn về các nguyên lý cơ bản của HTML5.",
+      "difficulty": "Easy",
+      "questionCount": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "topicId": 2,
+      "title": "Css3 Cơ bản",
+      "description": "Kiểm tra kiến thức của bạn về các nguyên lý cơ bản của Css3.",
+      "difficulty": "Easy",
+      "questionCount": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "topicId": 3,
+      "title": "JavaScript",
+      "description": "Kiểm tra kiến thức của bạn về các nguyên lý cơ bản của JavaScript.",
+      "difficulty": "Easy",
+      "questionCount": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "topicId": 4,
+      "title": "Git",
+      "description": "Kiểm tra kiến thức của bạn về các nguyên lý cơ bản của Git.",
+      "difficulty": "Easy",
+      "questionCount": 20,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "topicId": 5,
+      "title": "JavaScript",
+      "description": "Kiểm tra kiến thức của bạn về các nguyên lý cơ bản của JavaScript.",
+      "difficulty": "Easy",
+      "questionCount": 20,
+      "rating": 4.8
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quizId": 1,
       "question": "HTML là viết tắt của?",
       "answers": [
         "Hyperlinks and Text Markup Language",
@@ -194,7 +241,7 @@
     },
     {
       "id": 2,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ dùng để tạo liên kết là?",
       "answers": [
         "<link>",
@@ -206,7 +253,7 @@
     },
     {
       "id": 3,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo đoạn văn là?",
       "answers": [
         "<div>",
@@ -218,7 +265,7 @@
     },
     {
       "id": 4,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ xuống dòng là?",
       "answers": [
         "<hr>",
@@ -230,7 +277,7 @@
     },
     {
       "id": 5,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo hình ảnh?",
       "answers": [
         "<image>",
@@ -242,7 +289,7 @@
     },
     {
       "id": 6,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thuộc tính chỉ đường dẫn ảnh?",
       "answers": [
         "href",
@@ -254,7 +301,7 @@
     },
     {
       "id": 7,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tiêu đề lớn nhất?",
       "answers": [
         "<h6>",
@@ -266,7 +313,7 @@
     },
     {
       "id": 8,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo danh sách không thứ tự?",
       "answers": [
         "<ol>",
@@ -278,7 +325,7 @@
     },
     {
       "id": 9,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo danh sách có thứ tự?",
       "answers": [
         "<ul>",
@@ -290,7 +337,7 @@
     },
     {
       "id": 10,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ phần tử của danh sách?",
       "answers": [
         "<item>",
@@ -302,7 +349,7 @@
     },
     {
       "id": 11,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo bảng?",
       "answers": [
         "<tb>",
@@ -314,7 +361,7 @@
     },
     {
       "id": 12,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo một hàng trong bảng?",
       "answers": [
         "<td>",
@@ -326,7 +373,7 @@
     },
     {
       "id": 13,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo một ô dữ liệu?",
       "answers": [
         "<th>",
@@ -338,7 +385,7 @@
     },
     {
       "id": 14,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ tạo form?",
       "answers": [
         "<input>",
@@ -350,7 +397,7 @@
     },
     {
       "id": 15,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ nhập dữ liệu?",
       "answers": [
         "<textarea>",
@@ -362,7 +409,7 @@
     },
     {
       "id": 16,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thuộc tính mô tả ảnh?",
       "answers": [
         "title",
@@ -374,7 +421,7 @@
     },
     {
       "id": 17,
-      "topicId": 1,
+      "quizId": 1,
       "question": "HTML là ngôn ngữ gì?",
       "answers": [
         "Ngôn ngữ lập trình",
@@ -386,7 +433,7 @@
     },
     {
       "id": 18,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ chứa tiêu đề trang web?",
       "answers": [
         "<head>",
@@ -398,7 +445,7 @@
     },
     {
       "id": 19,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Nội dung hiển thị trên trình duyệt nằm trong?",
       "answers": [
         "<head>",
@@ -410,7 +457,7 @@
     },
     {
       "id": 20,
-      "topicId": 1,
+      "quizId": 1,
       "question": "Thẻ chứa toàn bộ tài liệu HTML?",
       "answers": [
         "<body>",
@@ -422,7 +469,7 @@
     },
     {
       "id": 21,
-      "topicId": 2,
+      "quizId": 2,
       "question": "CSS là viết tắt của?",
       "answers": [
         "Creative Style Sheets",
@@ -434,7 +481,7 @@
     },
     {
       "id": 22,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính đổi màu chữ là?",
       "answers": [
         "background",
@@ -446,7 +493,7 @@
     },
     {
       "id": 23,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính đổi màu nền là?",
       "answers": [
         "background-color",
@@ -458,7 +505,7 @@
     },
     {
       "id": 24,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính thay đổi kích thước chữ?",
       "answers": [
         "font-style",
@@ -470,7 +517,7 @@
     },
     {
       "id": 25,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính in đậm chữ?",
       "answers": [
         "font-weight",
@@ -482,7 +529,7 @@
     },
     {
       "id": 26,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính in nghiêng chữ?",
       "answers": [
         "font-weight",
@@ -494,7 +541,7 @@
     },
     {
       "id": 27,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính căn giữa văn bản?",
       "answers": [
         "align",
@@ -506,7 +553,7 @@
     },
     {
       "id": 28,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Giá trị căn giữa của text-align là?",
       "answers": [
         "middle",
@@ -518,7 +565,7 @@
     },
     {
       "id": 29,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính tạo khoảng cách bên trong phần tử?",
       "answers": [
         "margin",
@@ -530,7 +577,7 @@
     },
     {
       "id": 30,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính tạo khoảng cách bên ngoài phần tử?",
       "answers": [
         "padding",
@@ -542,7 +589,7 @@
     },
     {
       "id": 31,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính tạo đường viền?",
       "answers": [
         "outline",
@@ -554,7 +601,7 @@
     },
     {
       "id": 32,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính bo góc phần tử?",
       "answers": [
         "border-round",
@@ -566,7 +613,7 @@
     },
     {
       "id": 33,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính tạo bóng cho phần tử?",
       "answers": [
         "shadow",
@@ -578,7 +625,7 @@
     },
     {
       "id": 34,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính thay đổi kiểu hiển thị phần tử?",
       "answers": [
         "position",
@@ -590,7 +637,7 @@
     },
     {
       "id": 35,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Giá trị nào của display dùng Flexbox?",
       "answers": [
         "flex",
@@ -602,7 +649,7 @@
     },
     {
       "id": 36,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính sắp xếp phần tử theo chiều ngang trong Flexbox?",
       "answers": [
         "align-items",
@@ -614,7 +661,7 @@
     },
     {
       "id": 37,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính sắp xếp phần tử theo chiều dọc trong Flexbox?",
       "answers": [
         "justify-content",
@@ -626,7 +673,7 @@
     },
     {
       "id": 38,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính xác định vị trí phần tử?",
       "answers": [
         "display",
@@ -638,7 +685,7 @@
     },
     {
       "id": 39,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Giá trị mặc định của position là?",
       "answers": [
         "absolute",
@@ -650,7 +697,7 @@
     },
     {
       "id": 40,
-      "topicId": 2,
+      "quizId": 2,
       "question": "Thuộc tính quy định lớp chồng của phần tử?",
       "answers": [
         "layer",
@@ -662,7 +709,7 @@
     },
     {
       "id": 41,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Từ khóa nào dùng để khai báo biến trong ES6?",
       "answers": [
         "int",
@@ -674,7 +721,7 @@
     },
     {
       "id": 42,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Từ khóa dùng để khai báo hằng số?",
       "answers": [
         "const",
@@ -686,7 +733,7 @@
     },
     {
       "id": 43,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Toán tử so sánh nghiêm ngặt trong JavaScript là?",
       "answers": [
         "==",
@@ -698,7 +745,7 @@
     },
     {
       "id": 44,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức thêm phần tử vào cuối mảng?",
       "answers": [
         "shift()",
@@ -710,7 +757,7 @@
     },
     {
       "id": 45,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức xóa phần tử cuối mảng?",
       "answers": [
         "push()",
@@ -722,7 +769,7 @@
     },
     {
       "id": 46,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức dùng để duyệt qua từng phần tử của mảng?",
       "answers": [
         "map()",
@@ -734,7 +781,7 @@
     },
     {
       "id": 47,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức tạo một mảng mới sau khi biến đổi từng phần tử?",
       "answers": [
         "map()",
@@ -746,7 +793,7 @@
     },
     {
       "id": 48,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức lọc các phần tử thỏa điều kiện?",
       "answers": [
         "filter()",
@@ -758,7 +805,7 @@
     },
     {
       "id": 49,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức tìm phần tử đầu tiên thỏa điều kiện?",
       "answers": [
         "find()",
@@ -770,7 +817,7 @@
     },
     {
       "id": 50,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức kiểm tra mảng có chứa phần tử hay không?",
       "answers": [
         "find()",
@@ -782,7 +829,7 @@
     },
     {
       "id": 51,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Ký hiệu của Arrow Function là?",
       "answers": [
         "->",
@@ -794,7 +841,7 @@
     },
     {
       "id": 52,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Template Literal sử dụng ký tự nào?",
       "answers": [
         "\"",
@@ -806,7 +853,7 @@
     },
     {
       "id": 53,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Toán tử Spread có ký hiệu là?",
       "answers": [
         "..",
@@ -818,7 +865,7 @@
     },
     {
       "id": 54,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Destructuring dùng để làm gì?",
       "answers": [
         "Sao chép object",
@@ -830,7 +877,7 @@
     },
     {
       "id": 55,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Promise có bao nhiêu trạng thái?",
       "answers": [
         "2",
@@ -842,7 +889,7 @@
     },
     {
       "id": 56,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Từ khóa dùng để chờ Promise hoàn thành?",
       "answers": [
         "wait",
@@ -854,7 +901,7 @@
     },
     {
       "id": 57,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Để sử dụng await thì hàm phải khai báo bằng từ khóa nào?",
       "answers": [
         "promise",
@@ -866,7 +913,7 @@
     },
     {
       "id": 58,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức chuyển chuỗi JSON thành Object?",
       "answers": [
         "JSON.stringify()",
@@ -878,7 +925,7 @@
     },
     {
       "id": 59,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức chuyển Object thành chuỗi JSON?",
       "answers": [
         "JSON.stringify()",
@@ -890,7 +937,7 @@
     },
     {
       "id": 60,
-      "topicId": 3,
+      "quizId": 3,
       "question": "Phương thức fetch() dùng để làm gì?",
       "answers": [
         "Đọc file CSS",
@@ -902,7 +949,7 @@
     },
     {
       "id": 61,
-      "topicId": 4,
+      "quizId": 4,
       "question": "React là gì?",
       "answers": [
         "Framework Backend",
@@ -914,7 +961,7 @@
     },
     {
       "id": 62,
-      "topicId": 4,
+      "quizId": 4,
       "question": "JSX là gì?",
       "answers": [
         "Một Framework",
@@ -926,7 +973,7 @@
     },
     {
       "id": 63,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để quản lý state?",
       "answers": [
         "useEffect",
@@ -938,7 +985,7 @@
     },
     {
       "id": 64,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để xử lý side effects?",
       "answers": [
         "useState",
@@ -950,7 +997,7 @@
     },
     {
       "id": 65,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để lưu giá trị mà không làm component render lại?",
       "answers": [
         "useRef",
@@ -962,7 +1009,7 @@
     },
     {
       "id": 66,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để ghi nhớ kết quả tính toán?",
       "answers": [
         "useMemo",
@@ -974,7 +1021,7 @@
     },
     {
       "id": 67,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để ghi nhớ một function?",
       "answers": [
         "useMemo",
@@ -986,7 +1033,7 @@
     },
     {
       "id": 68,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Props dùng để làm gì?",
       "answers": [
         "Quản lý state",
@@ -998,7 +1045,7 @@
     },
     {
       "id": 69,
-      "topicId": 4,
+      "quizId": 4,
       "question": "State thay đổi sẽ dẫn đến điều gì?",
       "answers": [
         "Reload trình duyệt",
@@ -1010,7 +1057,7 @@
     },
     {
       "id": 70,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Virtual DOM dùng để làm gì?",
       "answers": [
         "Lưu CSS",
@@ -1022,7 +1069,7 @@
     },
     {
       "id": 71,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Component nào dùng để định nghĩa các Route?",
       "answers": [
         "<RouteList>",
@@ -1034,7 +1081,7 @@
     },
     {
       "id": 72,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Component nào dùng để khai báo một Route?",
       "answers": [
         "<Path>",
@@ -1046,7 +1093,7 @@
     },
     {
       "id": 73,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Component nào dùng để điều hướng mà không reload trang?",
       "answers": [
         "<a>",
@@ -1058,7 +1105,7 @@
     },
     {
       "id": 74,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để điều hướng bằng code?",
       "answers": [
         "useLocation",
@@ -1070,7 +1117,7 @@
     },
     {
       "id": 75,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để lấy tham số trên URL?",
       "answers": [
         "useSearchParams",
@@ -1082,7 +1129,7 @@
     },
     {
       "id": 76,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào dùng để lấy thông tin URL hiện tại?",
       "answers": [
         "useLocation",
@@ -1094,7 +1141,7 @@
     },
     {
       "id": 77,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Component nào dùng để render Route con?",
       "answers": [
         "<Routes>",
@@ -1106,7 +1153,7 @@
     },
     {
       "id": 78,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào của React Redux dùng để lấy dữ liệu từ Store?",
       "answers": [
         "useDispatch",
@@ -1118,7 +1165,7 @@
     },
     {
       "id": 79,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Hook nào của React Redux dùng để gửi Action?",
       "answers": [
         "useDispatch",
@@ -1130,7 +1177,7 @@
     },
     {
       "id": 80,
-      "topicId": 4,
+      "quizId": 4,
       "question": "Mỗi component trong React phải trả về bao nhiêu phần tử gốc?",
       "answers": [
         "Không giới hạn",
@@ -1142,7 +1189,7 @@
     },
     {
       "id": 81,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Git là gì?",
       "answers": [
         "Hệ quản trị cơ sở dữ liệu",
@@ -1154,7 +1201,7 @@
     },
     {
       "id": 82,
-      "topicId": 5,
+      "quizId": 5,
       "question": "GitHub là gì?",
       "answers": [
         "Một trình duyệt",
@@ -1166,7 +1213,7 @@
     },
     {
       "id": 83,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh khởi tạo Git Repository?",
       "answers": [
         "git init",
@@ -1178,7 +1225,7 @@
     },
     {
       "id": 84,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh tải source code từ Repository?",
       "answers": [
         "git pull",
@@ -1190,7 +1237,7 @@
     },
     {
       "id": 85,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh kiểm tra trạng thái của Repository?",
       "answers": [
         "git check",
@@ -1202,7 +1249,7 @@
     },
     {
       "id": 86,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh thêm file vào Staging Area?",
       "answers": [
         "git push",
@@ -1214,7 +1261,7 @@
     },
     {
       "id": 87,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh lưu thay đổi vào lịch sử Git?",
       "answers": [
         "git save",
@@ -1226,7 +1273,7 @@
     },
     {
       "id": 88,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh đẩy code lên Remote Repository?",
       "answers": [
         "git upload",
@@ -1238,7 +1285,7 @@
     },
     {
       "id": 89,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh lấy code mới nhất từ Remote và gộp vào nhánh hiện tại?",
       "answers": [
         "git clone",
@@ -1250,7 +1297,7 @@
     },
     {
       "id": 90,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh chỉ tải dữ liệu từ Remote nhưng chưa merge?",
       "answers": [
         "git fetch",
@@ -1262,7 +1309,7 @@
     },
     {
       "id": 91,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh xem lịch sử Commit?",
       "answers": [
         "git history",
@@ -1274,7 +1321,7 @@
     },
     {
       "id": 92,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh tạo Branch mới?",
       "answers": [
         "git branch <ten-branch>",
@@ -1286,7 +1333,7 @@
     },
     {
       "id": 93,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh chuyển sang Branch khác?",
       "answers": [
         "git move",
@@ -1298,7 +1345,7 @@
     },
     {
       "id": 94,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh tạo và chuyển sang Branch mới ngay lập tức?",
       "answers": [
         "git branch -d",
@@ -1310,7 +1357,7 @@
     },
     {
       "id": 95,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh gộp Branch khác vào Branch hiện tại?",
       "answers": [
         "git join",
@@ -1322,7 +1369,7 @@
     },
     {
       "id": 96,
-      "topicId": 5,
+      "quizId": 5,
       "question": "File nào dùng để bỏ qua những file không muốn Git theo dõi?",
       "answers": [
         ".gitconfig",
@@ -1334,7 +1381,7 @@
     },
     {
       "id": 97,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh xem danh sách các Branch?",
       "answers": [
         "git list",
@@ -1346,7 +1393,7 @@
     },
     {
       "id": 98,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Remote mặc định khi clone từ GitHub thường có tên là?",
       "answers": [
         "master",
@@ -1358,7 +1405,7 @@
     },
     {
       "id": 99,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Lệnh xóa một Branch ở local?",
       "answers": [
         "git remove branch",
@@ -1370,7 +1417,7 @@
     },
     {
       "id": 100,
-      "topicId": 5,
+      "quizId": 5,
       "question": "Pull Request (PR) trên GitHub thường được dùng để làm gì?",
       "answers": [
         "Xóa Repository",
@@ -1385,7 +1432,7 @@
     {
       "id": 1,
       "userId": 1,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -1432,7 +1479,7 @@
     {
       "id": 2,
       "userId": 1,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -1479,7 +1526,7 @@
     {
       "id": 3,
       "userId": 1,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -1526,7 +1573,7 @@
     {
       "id": 4,
       "userId": 1,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -1573,7 +1620,7 @@
     {
       "id": 5,
       "userId": 1,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -1620,7 +1667,7 @@
     {
       "id": 6,
       "userId": 2,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -1667,7 +1714,7 @@
     {
       "id": 7,
       "userId": 2,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -1714,7 +1761,7 @@
     {
       "id": 8,
       "userId": 2,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -1761,7 +1808,7 @@
     {
       "id": 9,
       "userId": 2,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -1808,7 +1855,7 @@
     {
       "id": 10,
       "userId": 2,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -1855,7 +1902,7 @@
     {
       "id": 11,
       "userId": 3,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -1902,7 +1949,7 @@
     {
       "id": 12,
       "userId": 3,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -1949,7 +1996,7 @@
     {
       "id": 13,
       "userId": 3,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -1996,7 +2043,7 @@
     {
       "id": 14,
       "userId": 3,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -2043,7 +2090,7 @@
     {
       "id": 15,
       "userId": 3,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -2090,7 +2137,7 @@
     {
       "id": 16,
       "userId": 4,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -2137,7 +2184,7 @@
     {
       "id": 17,
       "userId": 4,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -2184,7 +2231,7 @@
     {
       "id": 18,
       "userId": 4,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -2231,7 +2278,7 @@
     {
       "id": 19,
       "userId": 4,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -2278,7 +2325,7 @@
     {
       "id": 20,
       "userId": 4,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -2325,7 +2372,7 @@
     {
       "id": 21,
       "userId": 5,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -2372,7 +2419,7 @@
     {
       "id": 22,
       "userId": 5,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -2419,7 +2466,7 @@
     {
       "id": 23,
       "userId": 5,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -2466,7 +2513,7 @@
     {
       "id": 24,
       "userId": 5,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -2513,7 +2560,7 @@
     {
       "id": 25,
       "userId": 5,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -2560,7 +2607,7 @@
     {
       "id": 26,
       "userId": 6,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -2607,7 +2654,7 @@
     {
       "id": 27,
       "userId": 6,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -2654,7 +2701,7 @@
     {
       "id": 28,
       "userId": 6,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -2701,7 +2748,7 @@
     {
       "id": 29,
       "userId": 6,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -2748,7 +2795,7 @@
     {
       "id": 30,
       "userId": 6,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -2795,7 +2842,7 @@
     {
       "id": 31,
       "userId": 7,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -2842,7 +2889,7 @@
     {
       "id": 32,
       "userId": 7,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -2889,7 +2936,7 @@
     {
       "id": 33,
       "userId": 7,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -2936,7 +2983,7 @@
     {
       "id": 34,
       "userId": 7,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -2983,7 +3030,7 @@
     {
       "id": 35,
       "userId": 7,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -3030,7 +3077,7 @@
     {
       "id": 36,
       "userId": 8,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -3077,7 +3124,7 @@
     {
       "id": 37,
       "userId": 8,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -3124,7 +3171,7 @@
     {
       "id": 38,
       "userId": 8,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -3171,7 +3218,7 @@
     {
       "id": 39,
       "userId": 8,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -3218,7 +3265,7 @@
     {
       "id": 40,
       "userId": 8,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -3265,7 +3312,7 @@
     {
       "id": 41,
       "userId": 9,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -3312,7 +3359,7 @@
     {
       "id": 42,
       "userId": 9,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -3359,7 +3406,7 @@
     {
       "id": 43,
       "userId": 9,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -3406,7 +3453,7 @@
     {
       "id": 44,
       "userId": 9,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -3453,7 +3500,7 @@
     {
       "id": 45,
       "userId": 9,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -3500,7 +3547,7 @@
     {
       "id": 46,
       "userId": 10,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -3547,7 +3594,7 @@
     {
       "id": 47,
       "userId": 10,
-      "topicId": 2,
+      "quizId": 2,
       "answers": [
         {
           "questionId": 21,
@@ -3594,7 +3641,7 @@
     {
       "id": 48,
       "userId": 10,
-      "topicId": 3,
+      "quizId": 3,
       "answers": [
         {
           "questionId": 41,
@@ -3641,7 +3688,7 @@
     {
       "id": 49,
       "userId": 10,
-      "topicId": 4,
+      "quizId": 4,
       "answers": [
         {
           "questionId": 61,
@@ -3688,7 +3735,7 @@
     {
       "id": 50,
       "userId": 10,
-      "topicId": 5,
+      "quizId": 5,
       "answers": [
         {
           "questionId": 81,
@@ -3734,7 +3781,7 @@
     },
     {
       "userId": 12,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -3821,7 +3868,7 @@
     },
     {
       "userId": 12,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,
@@ -3908,7 +3955,7 @@
     },
     {
       "userId": 1,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 19,
@@ -3923,7 +3970,7 @@
     },
     {
       "userId": 1,
-      "topicId": 1,
+      "quizId": 1,
       "answers": [
         {
           "questionId": 1,

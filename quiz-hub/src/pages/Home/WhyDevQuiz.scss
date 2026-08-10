@@ -1,0 +1,141 @@
+.why-devquiz {
+    padding: 90px 0;
+
+    background-color: #ffffff;
+
+
+    // =========================
+    // HEADING
+    // =========================
+
+    &__heading {
+        max-width: 650px;
+
+        margin: 0 auto 50px;
+
+        text-align: center;
+    }
+
+    &__title {
+        margin: 0 0 14px;
+
+        color: #1f2937;
+
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    &__description {
+        margin: 0;
+
+        color: #6b7280;
+
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+    // =========================
+    // LIST
+    // =========================
+
+    &__list {
+        display: flex;
+
+        gap: 24px;
+    }
+
+
+    // =========================
+    // ITEM
+    // =========================
+
+    &__item {
+        flex: 1;
+
+        padding: 35px 30px;
+
+        text-align: center;
+
+        border: 1px solid #eeeeee;
+        border-radius: 16px;
+
+        background-color: #ffffff;
+
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-6px);
+
+            border-color: #dddafe;
+
+            box-shadow: 0 15px 35px rgba(87, 79, 245, 0.1);
+        }
+    }
+
+
+    // =========================
+    // ICON
+    // =========================
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 64px;
+        height: 64px;
+
+        margin: 0 auto 22px;
+
+        border-radius: 16px;
+
+        background-color: #f0efff;
+
+        color: #574ff5;
+
+        font-size: 30px;
+
+        transition: all 0.3s ease;
+    }
+
+
+    &__item:hover &__icon {
+        background-color: #574ff5;
+
+        color: #ffffff;
+
+        transform: scale(1.05);
+    }
+
+
+    // =========================
+    // TITLE
+    // =========================
+
+    &__item-title {
+        margin: 0 0 12px;
+
+        color: #1f2937;
+
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    // =========================
+    // DESCRIPTION
+    // =========================
+
+    &__item-description {
+        max-width: 300px;
+
+        margin: 0 auto;
+
+        color: #6b7280;
+
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+}
