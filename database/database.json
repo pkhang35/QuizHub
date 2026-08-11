@@ -69,51 +69,35 @@
       "email": "ngovank@gmail.com",
       "password": "ngovank",
       "token": "QaZwXsEdCrFvTgByHnU"
-    },
-    {
-      "fullName": "nguyen van a",
-      "email": "nguyenvana@gmail.com",
-      "password": "nguyenvana",
-      "token": "YTCozEyXvXbNC7R4JloW",
-      "id": 11
-    },
-    {
-      "fullName": "Phạm Tuấn Khang",
-      "email": "phamtuankhang@gmail.com",
-      "password": "phamtuankhang",
-      "token": "GmOFyKCWi1sMuSVwjCA9",
-      "id": 12
     }
   ],
   "topics": [
     {
       "id": 1,
       "name": "HTML5",
-      "image":"https://www.svgrepo.com/show/452228/html-5.svg"
+      "image": "https://www.svgrepo.com/show/452228/html-5.svg"
     },
     {
       "id": 2,
       "name": "CSS3",
-      "image":"https://www.svgrepo.com/show/349330/css3.svg"
+      "image": "https://www.svgrepo.com/show/349330/css3.svg"
     },
     {
       "id": 3,
       "name": "JavaScript",
-      "image":"https://www.svgrepo.com/show/349419/javascript.svg"
-
+      "image": "https://www.svgrepo.com/show/349419/javascript.svg"
     },
     {
       "id": 4,
       "name": "ReactJS",
-      "image":"https://www.svgrepo.com/show/374032/reactjs.svg"
+      "image": "https://www.svgrepo.com/show/374032/reactjs.svg"
     },
     {
       "id": 5,
       "name": "Git",
-      "image":"https://www.svgrepo.com/show/452210/git.svg"
-
+      "image": "https://www.svgrepo.com/show/452210/git.svg"
     },
-     {
+    {
       "id": 6,
       "name": "TypeScript",
       "image": "https://www.svgrepo.com/show/374146/typescript-official.svg"
