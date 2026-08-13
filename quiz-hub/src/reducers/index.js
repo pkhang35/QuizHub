@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
-import cartReducer from "./cart";
+import loadingReducer from "./loading";
 
 
 
 const allReducers = combineReducers({
-    cartReducer,
+    loadingReducer,
     //thêm nhiều reducer vào đâu 
 })
 export default allReducers;

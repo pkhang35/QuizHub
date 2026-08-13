@@ -1,26 +1,7 @@
-export const addToCart =(id,info)=>{
+export const loading =(status)=>{
     return{
-        type:"ADD_TO_CART",
-        id:id,
-        info:info
+        type:"LOADING",
+        status:status
     }
 }
 
-export const updateQuantity =(id,quantity=1)=>{
-    return{
-        type:"UPDATE_QUANTITY",
-        id:id,
-        quantity:quantity
-    }
-}
-export const deleteItem = (id)=>{
-    return {
-        type:"DELETE_ITEM",
-        id:id
-    }
-}
-export const deleteAll = ()=>{
-    return {
-        type:"DELETE_ALL"
-    }
-}

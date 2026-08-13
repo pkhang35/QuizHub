@@ -2,8 +2,12 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import "./Header.scss";
 import { Button, Input } from "antd";
+import {useSelector} from "react-redux";
 import { HomeOutlined, AppstoreOutlined, CheckCircleOutlined, LoginOutlined, UserAddOutlined  } from '@ant-design/icons';
+import { getCookie } from "../../helpers/cookie";
 function Header(){
+    const token=getCookie("token");
+    const isLoading=useSelector(state=>state.loadingReducer)
     const menuItems=[
         {
             label:"Trang chủ",
@@ -18,7 +22,8 @@ function Header(){
         {
             label:"Câu trả lời",
             path:"/answers",
-            icon: <CheckCircleOutlined />
+            icon: <CheckCircleOutlined />,
+            requiredAuth: true
         }
     ]
     return(
@@ -32,7 +37,9 @@ function Header(){
                         {/* Navigation */}
                         <nav className="header__nav">
                             <ul className="header__menu">
-                                {menuItems.map((item)=>(
+                                {menuItems
+                                    .filter(item => !item.requiredAuth || token)
+                                    .map((item)=>(
                                     <li key={item.path} className="header__item"> 
                                     <NavLink 
                                         to={item.path}
@@ -55,23 +62,38 @@ function Header(){
                                 />
                             </div>
                             <div className="header__actions">
-                                <Link to="/login">
-                                    <Button 
-                                        icon={<LoginOutlined />}
-                                        className="header__btn header__btn--login"
-                                    >
-                                        Đăng nhập
-                                    </Button>
-                                </Link>
+                                {token ?(
+                                    <Link to="/logout">
+                                        <Button 
+                                            icon={<LoginOutlined />}
+                                            className="header__btn header__btn--login"
+                                        >
+                                            Đăng xuất
+                                        </Button>
+                                    </Link>
+                                ):(
+                                    <>
+                                        <Link to="/login">
+                                            <Button 
+                                                icon={<LoginOutlined />}
+                                                className="header__btn header__btn--login"
+                                            >
+                                                Đăng nhập
+                                            </Button>
+                                        </Link>
 
-                                <Link to="/register">
-                                <Button 
-                                    icon={<UserAddOutlined />}
-                                    className="header__btn header__btn--register "
-                                >
-                                        Đăng ký
-                                    </Button>
-                                </Link>
+                                        <Link to="/register">
+                                        <Button 
+                                            icon={<UserAddOutlined />}
+                                            className="header__btn header__btn--register "
+                                        >
+                                                Đăng ký
+                                            </Button>
+                                        </Link>
+                                    </>
+                                ) 
+                                }
+                                
                             </div>
                         </div>
                     </div>
