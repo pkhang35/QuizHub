@@ -75,92 +75,110 @@
     {
       "id": 1,
       "name": "HTML5",
-      "image": "https://www.svgrepo.com/show/452228/html-5.svg"
+      "image": "https://www.svgrepo.com/show/452228/html-5.svg",
+      "description": "Nắm vững cấu trúc và nền tảng của Web."
     },
     {
       "id": 2,
       "name": "CSS3",
-      "image": "https://www.svgrepo.com/show/349330/css3.svg"
+      "image": "https://www.svgrepo.com/show/349330/css3.svg",
+      "description": "Xây dựng giao diện, bố cục và hiệu ứng cho Web."
     },
     {
       "id": 3,
       "name": "JavaScript",
-      "image": "https://www.svgrepo.com/show/349419/javascript.svg"
+      "image": "https://www.svgrepo.com/show/349419/javascript.svg",
+      "description": "Lập trình Web với JavaScript hiện đại."
     },
     {
       "id": 4,
       "name": "ReactJS",
-      "image": "https://www.svgrepo.com/show/374032/reactjs.svg"
+      "image": "https://www.svgrepo.com/show/374032/reactjs.svg",
+      "description": "Xây dựng giao diện Web bằng thư viện React."
     },
     {
       "id": 5,
       "name": "Git",
-      "image": "https://www.svgrepo.com/show/452210/git.svg"
+      "image": "https://www.svgrepo.com/show/452210/git.svg",
+      "description": "Quản lý phiên bản và theo dõi thay đổi mã nguồn."
     },
     {
       "id": 6,
       "name": "TypeScript",
-      "image": "https://www.svgrepo.com/show/374146/typescript-official.svg"
+      "image": "https://www.svgrepo.com/show/374146/typescript-official.svg",
+      "description": "Viết JavaScript an toàn hơn với hệ thống kiểu dữ liệu."
     },
     {
       "id": 7,
       "name": "NodeJS",
-      "image": "https://www.svgrepo.com/show/452075/node-js.svg"
+      "image": "https://www.svgrepo.com/show/452075/node-js.svg",
+      "description": "Xây dựng ứng dụng và API bằng JavaScript phía server."
     },
     {
       "id": 8,
       "name": "VueJS",
-      "image": "https://www.svgrepo.com/show/303494/vue-9-logo.svg"
+      "image": "https://www.svgrepo.com/show/303494/vue-9-logo.svg",
+      "description": "Xây dựng giao diện Web hiện đại với Vue."
     },
     {
       "id": 9,
       "name": "Angular",
-      "image": "https://www.svgrepo.com/show/452156/angular.svg"
+      "image": "https://www.svgrepo.com/show/452156/angular.svg",
+      "description": "Phát triển ứng dụng Web mạnh mẽ với Angular."
     },
     {
       "id": 10,
       "name": "Python",
-      "image": "https://www.svgrepo.com/show/452091/python.svg"
+      "image": "https://www.svgrepo.com/show/452091/python.svg",
+      "description": "Học lập trình Python và các khái niệm nền tảng."
     },
     {
       "id": 11,
       "name": "Java",
-      "image": "https://www.svgrepo.com/show/452234/java.svg"
+      "image": "https://www.svgrepo.com/show/452234/java.svg",
+      "description": "Luyện tập lập trình hướng đối tượng với Java."
     },
     {
       "id": 12,
       "name": "PHP",
-      "image": "https://www.svgrepo.com/show/452088/php.svg"
+      "image": "https://www.svgrepo.com/show/452088/php.svg",
+      "description": "Phát triển ứng dụng Web với ngôn ngữ PHP."
     },
     {
       "id": 13,
       "name": "Docker",
-      "image": "https://www.svgrepo.com/show/448221/docker.svg"
+      "image": "https://www.svgrepo.com/show/448221/docker.svg",
+      "description": "Đóng gói và triển khai ứng dụng bằng container."
     },
     {
       "id": 14,
       "name": "Tailwind CSS",
-      "image": "https://www.svgrepo.com/show/374118/tailwind.svg"
+      "image": "https://www.svgrepo.com/show/374118/tailwind.svg",
+      "description": "Xây dựng giao diện nhanh chóng với utility-first CSS."
     },
     {
       "id": 15,
       "name": "Bootstrap",
-      "image": "https://www.svgrepo.com/show/353498/bootstrap.svg"
+      "image": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+      "description": "Xây dựng giao diện Responsive với Bootstrap."
     },
     {
       "id": 16,
       "name": "NextJS",
-      "image": "https://www.svgrepo.com/show/354113/nextjs-icon.svg"
+      "image": "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+      "description": "Xây dựng ứng dụng React hiện đại với Next.js."
     },
     {
       "id": 17,
       "name": "Redux",
-      "image": "https://www.svgrepo.com/show/452093/redux.svg"
+      "image": "https://www.svgrepo.com/show/452093/redux.svg",
+      "description": "Quản lý state tập trung cho ứng dụng JavaScript."
     },
     {
       "id": 18,
       "name": "Sass",
-      "image": "https://www.svgrepo.com/show/374061/sass.svg"
+      "image": "https://www.svgrepo.com/show/374061/sass.svg",
+      "description": "Viết CSS mạnh mẽ và dễ quản lý hơn với Sass."
     }
   ],
   "quizzes": [
