@@ -7,12 +7,15 @@ import {
     ArrowRightOutlined,
 } from "@ant-design/icons";
 import "./Question.scss";
+import { createAnswers } from "../../services/answersServices";
+import { getCookie } from "../../helpers/cookie";
 function Question(){
     const params=useParams();
     const [questions,setQuestions]=useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [messageApi, contextHolder] = message.useMessage();
+    const [answers, setAnswers] = useState([]);
     useEffect(()=>{
         const fetchApi = async () => {
             const resQuestion= await getQuestionQuizId(params.quizId);
@@ -31,6 +34,32 @@ function Question(){
     const progress=((currentIndex+1)/questions.length)*100;
     const handleSelectAnswer = (value) => {
         setSelectedAnswer(value);
+        setAnswers(prev => {
+            const exists = prev.find(
+                item => item.questionId === currentQuestion.id
+            );
+            // Nếu câu này đã chọn rồi → cập nhật đáp án
+            if (exists) {
+                return prev.map(item =>
+                    item.questionId === currentQuestion.id
+                        ? {
+                            ...item,
+                            answer: value
+                        }
+                        : item
+                );
+
+            }
+            // // Nếu chưa có → thêm mới
+            return [
+                ...prev,
+                {
+                    questionId: currentQuestion.id,
+                    answer: value
+                }
+            ];
+
+        });
     };
     const handleNext = () => {
         if (selectedAnswer === null) {
@@ -40,21 +69,54 @@ function Question(){
             return;
         }
         if (currentIndex < questions.length - 1) {
-            setCurrentIndex(currentIndex + 1);
-            setSelectedAnswer(null);
-        } else {
-            messageApi.success(
-                "Bạn đã hoàn thành bài quiz!"
+            const nextIndex = currentIndex + 1;
+            const nextQuestion = questions[nextIndex];
+            
+            const savedAnswer = answers.find(
+                item => item.questionId === nextQuestion.id
             );
+            console.log(savedAnswer);
+            setCurrentIndex(nextIndex);
+            if (savedAnswer) {
+                setSelectedAnswer(savedAnswer.answer);
+            } else {
+                setSelectedAnswer(null);
+            }
+        } else {
+            // messageApi.success(
+            //     "Bạn đã hoàn thành bài quiz!"
+            // );
+            handleSubmitQuiz();
         }
     };
     const handlePrevious = () => {
         if (currentIndex > 0) {
-            setCurrentIndex(currentIndex - 1);
-            setSelectedAnswer(null);
+            const previousIndex = currentIndex - 1;
+            const previousQuestion = questions[previousIndex];
+            const savedAnswer = answers.find(
+                item => item.questionId === previousQuestion.id
+            );
+            setCurrentIndex(previousIndex);
+            if (savedAnswer) {
+                setSelectedAnswer(savedAnswer.answer);
+            } else {
+                setSelectedAnswer(null);
+            }
         }
     };
-    console.log(selectedAnswer)
+    const handleSubmitQuiz= async ()=>{
+        const data = {
+            userId: Number(getCookie("id")),
+            quizId: Number(params.quizId),
+            answers: answers
+        };
+        const response = await createAnswers(data);
+        if (response) {
+            messageApi.success(
+                "Bạn đã hoàn thành bài quiz!"
+            );
+        }
+    }
     return(
          <>
          {contextHolder}

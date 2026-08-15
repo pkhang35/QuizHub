@@ -239,7 +239,7 @@
         "Hyper Text Markup Language",
         "Hyper Tool Main Language"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 2,
@@ -251,7 +251,7 @@
         "<href>",
         "<url>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 3,
@@ -263,7 +263,7 @@
         "<p>",
         "<text>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 4,
@@ -275,7 +275,7 @@
         "<p>",
         "<line>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 5,
@@ -287,7 +287,7 @@
         "<picture>",
         "<photo>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 6,
@@ -299,7 +299,7 @@
         "path",
         "link"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 7,
@@ -311,7 +311,7 @@
         "<h1>",
         "<title>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 8,
@@ -323,7 +323,7 @@
         "<ul>",
         "<dl>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 9,
@@ -335,7 +335,7 @@
         "<ol>",
         "<list>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 10,
@@ -347,7 +347,7 @@
         "<list>",
         "<dl>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 11,
@@ -359,7 +359,7 @@
         "<tr>",
         "<grid>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 12,
@@ -371,7 +371,7 @@
         "<row>",
         "<tr>"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 4
     },
     {
       "id": 13,
@@ -383,7 +383,7 @@
         "<cell>",
         "<tr>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 14,
@@ -395,7 +395,7 @@
         "<submit>",
         "<button>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 15,
@@ -407,7 +407,7 @@
         "<form>",
         "<label>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 16,
@@ -419,7 +419,7 @@
         "name",
         "description"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 17,
@@ -431,7 +431,7 @@
         "Hệ quản trị CSDL",
         "Framework"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 18,
@@ -443,7 +443,7 @@
         "<title>",
         "<body>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 19,
@@ -455,7 +455,7 @@
         "<body>",
         "<title>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 20,
@@ -467,7 +467,7 @@
         "<html>",
         "<document>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 21,
@@ -479,7 +479,7 @@
         "Cascading Style Sheets",
         "Colorful Style Sheets"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 22,
@@ -491,7 +491,7 @@
         "color",
         "text-color"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 23,
@@ -503,7 +503,7 @@
         "bgcolor",
         "background-image"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 24,
@@ -515,7 +515,7 @@
         "text-size",
         "size"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 25,
@@ -527,7 +527,7 @@
         "text-bold",
         "font-bold"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 26,
@@ -539,7 +539,7 @@
         "text-style",
         "italic"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 27,
@@ -551,7 +551,7 @@
         "text-align",
         "center"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 28,
@@ -563,7 +563,7 @@
         "left",
         "right-center"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 29,
@@ -575,7 +575,7 @@
         "border",
         "spacing"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 30,
@@ -587,7 +587,7 @@
         "border",
         "gap"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 31,
@@ -599,7 +599,7 @@
         "border",
         "frame"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 32,
@@ -611,7 +611,7 @@
         "border-radius",
         "round"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 33,
@@ -623,7 +623,7 @@
         "element-shadow",
         "border-shadow"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 34,
@@ -635,7 +635,7 @@
         "visibility",
         "layout"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 35,
@@ -647,7 +647,7 @@
         "inline",
         "grid"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 36,
@@ -659,7 +659,7 @@
         "flex-direction",
         "align-content"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 37,
@@ -671,7 +671,7 @@
         "flex-wrap",
         "gap"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 38,
@@ -683,7 +683,7 @@
         "float",
         "z-index"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 39,
@@ -695,7 +695,7 @@
         "fixed",
         "static"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 4
     },
     {
       "id": 40,
@@ -707,7 +707,7 @@
         "z-index",
         "stack"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 41,
@@ -719,7 +719,7 @@
         "let",
         "string"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 42,
@@ -731,7 +731,7 @@
         "var",
         "final"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 43,
@@ -743,7 +743,7 @@
         "===",
         "!="
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 44,
@@ -755,7 +755,7 @@
         "pop()",
         "unshift()"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 45,
@@ -767,7 +767,7 @@
         "pop()",
         "splice()"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 46,
@@ -779,7 +779,7 @@
         "filter()",
         "find()"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 47,
@@ -791,7 +791,7 @@
         "some()",
         "every()"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 48,
@@ -803,7 +803,7 @@
         "reduce()",
         "sort()"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 49,
@@ -815,7 +815,7 @@
         "map()",
         "includes()"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 50,
@@ -827,7 +827,7 @@
         "contains()",
         "exist()"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 51,
@@ -839,7 +839,7 @@
         "::",
         "==>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 52,
@@ -851,7 +851,7 @@
         "`",
         "~"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 53,
@@ -863,7 +863,7 @@
         "**",
         "&&"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 54,
@@ -875,7 +875,7 @@
         "Xóa object",
         "Nối object"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 55,
@@ -887,7 +887,7 @@
         "4",
         "5"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 56,
@@ -899,7 +899,7 @@
         "await",
         "pause"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 57,
@@ -911,7 +911,7 @@
         "async",
         "await"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 58,
@@ -923,7 +923,7 @@
         "JSON.convert()",
         "JSON.object()"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 59,
@@ -935,7 +935,7 @@
         "JSON.toString()",
         "JSON.convert()"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 60,
@@ -947,7 +947,7 @@
         "Tạo Object",
         "Tạo Promise"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 61,
@@ -959,7 +959,7 @@
         "Ngôn ngữ lập trình",
         "Database"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 62,
@@ -971,7 +971,7 @@
         "Một thư viện CSS",
         "Một Database"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 63,
@@ -983,7 +983,7 @@
         "useState",
         "useRef"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 64,
@@ -995,7 +995,7 @@
         "useRef",
         "useMemo"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 65,
@@ -1007,7 +1007,7 @@
         "useEffect",
         "useReducer"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 66,
@@ -1019,7 +1019,7 @@
         "useRef",
         "useEffect"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 67,
@@ -1031,7 +1031,7 @@
         "useCallback",
         "useRef"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 68,
@@ -1043,7 +1043,7 @@
         "Điều hướng trang",
         "Gọi API"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 69,
@@ -1055,7 +1055,7 @@
         "Xóa DOM",
         "Tắt ứng dụng"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 70,
@@ -1067,7 +1067,7 @@
         "Lưu dữ liệu",
         "Thay thế HTML"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 71,
@@ -1079,7 +1079,7 @@
         "<Routes>",
         "<Switch>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 72,
@@ -1091,7 +1091,7 @@
         "<Route>",
         "<Link>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 73,
@@ -1103,7 +1103,7 @@
         "<button>",
         "<Redirect>"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 74,
@@ -1115,7 +1115,7 @@
         "useNavigate",
         "useRouter"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 75,
@@ -1127,7 +1127,7 @@
         "useParams",
         "useRoute"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 76,
@@ -1139,7 +1139,7 @@
         "useNavigate",
         "useParams"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 77,
@@ -1151,7 +1151,7 @@
         "<Outlet>",
         "<Child>"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 78,
@@ -1163,7 +1163,7 @@
         "useStoreData",
         "useReducer"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 79,
@@ -1175,7 +1175,7 @@
         "useContext",
         "useAction"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 80,
@@ -1187,7 +1187,7 @@
         "1 phần tử gốc hoặc Fragment",
         "3 phần tử"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 81,
@@ -1199,7 +1199,7 @@
         "Framework JavaScript",
         "Ngôn ngữ lập trình"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 82,
@@ -1211,7 +1211,7 @@
         "Một IDE",
         "Một Database"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 83,
@@ -1223,7 +1223,7 @@
         "git new",
         "git create"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 84,
@@ -1235,7 +1235,7 @@
         "git clone",
         "git copy"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 85,
@@ -1247,7 +1247,7 @@
         "git info",
         "git state"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 86,
@@ -1259,7 +1259,7 @@
         "git commit",
         "git stage"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 87,
@@ -1271,7 +1271,7 @@
         "git commit",
         "git merge"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 88,
@@ -1283,7 +1283,7 @@
         "git push",
         "git publish"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 3
     },
     {
       "id": 89,
@@ -1295,7 +1295,7 @@
         "git fetch",
         "git merge"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 90,
@@ -1307,7 +1307,7 @@
         "git clone",
         "git update"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 91,
@@ -1319,7 +1319,7 @@
         "git commits",
         "git list"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 92,
@@ -1331,7 +1331,7 @@
         "git switch <ten-branch>",
         "git merge <ten-branch>"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 1
     },
     {
       "id": 93,
@@ -1343,7 +1343,7 @@
         "git push",
         "git merge"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 94,
@@ -1355,7 +1355,7 @@
         "git switch",
         "git merge"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 95,
@@ -1367,7 +1367,7 @@
         "git connect",
         "git combine"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 96,
@@ -1379,7 +1379,7 @@
         ".gitkeep",
         ".ignore"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 97,
@@ -1391,7 +1391,7 @@
         "git branches",
         "git show-branch"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 98,
@@ -1403,7 +1403,7 @@
         "main",
         "remote"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 99,
@@ -1415,7 +1415,7 @@
         "git delete",
         "git rm branch"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     },
     {
       "id": 100,
@@ -1427,7 +1427,7 @@
         "Tạo tài khoản GitHub",
         "Đổi tên Repository"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     }
   ],
   "answers": [
@@ -3780,234 +3780,8 @@
           "answer": 0
         }
       ]
-    },
-    {
-      "userId": 12,
-      "quizId": 1,
-      "answers": [
-        {
-          "questionId": 1,
-          "answer": 0
-        },
-        {
-          "questionId": 2,
-          "answer": 0
-        },
-        {
-          "questionId": 3,
-          "answer": 0
-        },
-        {
-          "questionId": 4,
-          "answer": 0
-        },
-        {
-          "questionId": 5,
-          "answer": 0
-        },
-        {
-          "questionId": 6,
-          "answer": 0
-        },
-        {
-          "questionId": 7,
-          "answer": 0
-        },
-        {
-          "questionId": 8,
-          "answer": 0
-        },
-        {
-          "questionId": 9,
-          "answer": 0
-        },
-        {
-          "questionId": 10,
-          "answer": 0
-        },
-        {
-          "questionId": 11,
-          "answer": 0
-        },
-        {
-          "questionId": 12,
-          "answer": 0
-        },
-        {
-          "questionId": 13,
-          "answer": 0
-        },
-        {
-          "questionId": 14,
-          "answer": 0
-        },
-        {
-          "questionId": 15,
-          "answer": 0
-        },
-        {
-          "questionId": 16,
-          "answer": 0
-        },
-        {
-          "questionId": 17,
-          "answer": 0
-        },
-        {
-          "questionId": 18,
-          "answer": 0
-        },
-        {
-          "questionId": 19,
-          "answer": 0
-        },
-        {
-          "questionId": 20,
-          "answer": 0
-        }
-      ],
-      "id": 52
-    },
-    {
-      "userId": 12,
-      "quizId": 1,
-      "answers": [
-        {
-          "questionId": 1,
-          "answer": 0
-        },
-        {
-          "questionId": 2,
-          "answer": 0
-        },
-        {
-          "questionId": 3,
-          "answer": 0
-        },
-        {
-          "questionId": 4,
-          "answer": 0
-        },
-        {
-          "questionId": 5,
-          "answer": 0
-        },
-        {
-          "questionId": 6,
-          "answer": 0
-        },
-        {
-          "questionId": 7,
-          "answer": 0
-        },
-        {
-          "questionId": 8,
-          "answer": 0
-        },
-        {
-          "questionId": 9,
-          "answer": 0
-        },
-        {
-          "questionId": 10,
-          "answer": 0
-        },
-        {
-          "questionId": 11,
-          "answer": 0
-        },
-        {
-          "questionId": 12,
-          "answer": 0
-        },
-        {
-          "questionId": 13,
-          "answer": 0
-        },
-        {
-          "questionId": 14,
-          "answer": 0
-        },
-        {
-          "questionId": 15,
-          "answer": 0
-        },
-        {
-          "questionId": 16,
-          "answer": 0
-        },
-        {
-          "questionId": 17,
-          "answer": 0
-        },
-        {
-          "questionId": 18,
-          "answer": 0
-        },
-        {
-          "questionId": 19,
-          "answer": 0
-        },
-        {
-          "questionId": 20,
-          "answer": 0
-        }
-      ],
-      "id": 53
-    },
-    {
-      "userId": 1,
-      "quizId": 1,
-      "answers": [
-        {
-          "questionId": 19,
-          "answer": 1
-        },
-        {
-          "questionId": 20,
-          "answer": 3
-        }
-      ],
-      "id": 54
-    },
-    {
-      "userId": 1,
-      "quizId": 1,
-      "answers": [
-        {
-          "questionId": 1,
-          "answer": 1
-        },
-        {
-          "questionId": 2,
-          "answer": 1
-        },
-        {
-          "questionId": 3,
-          "answer": 1
-        },
-        {
-          "questionId": 4,
-          "answer": 1
-        },
-        {
-          "questionId": 5,
-          "answer": 1
-        },
-        {
-          "questionId": 6,
-          "answer": 1
-        },
-        {
-          "questionId": 7,
-          "answer": 1
-        },
-        {
-          "questionId": 8,
-          "answer": 1
-        }
-      ],
-      "id": 55
     }
+   
+   
   ]
 }

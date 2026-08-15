@@ -7,7 +7,7 @@ import Logout from "../pages/Logout";
 import Register from "../pages/Register";
 import Topic from "../pages/Topic";
 import Quiz from "../pages/Quiz";
-import Question from "../pages/Question/inde";
+import Question from "../pages/Question";
 
 export const routes=[
     {
