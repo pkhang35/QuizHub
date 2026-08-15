@@ -4,6 +4,7 @@ import { getTopicList } from "../../services/topicsServices";
 import { Card, Col, Row } from "antd";
 import { RightOutlined } from "@ant-design/icons";
 import { getQuizList } from "../../services/quizzesServices";
+import { Link } from "react-router-dom";
 function Topic(){
     const [topics,setTopics]= useState([]);
     const [quizzes,setQuizzes]= useState([]);
@@ -17,25 +18,16 @@ function Topic(){
          fetchApi()
     },[])
 
-    // topics.map(item=>(
-    //  console.log(item)
-    // ))
-    const topic=topics.map(item=>{
-     return item;
-    })
-   
-    const count=quizzes.filter(quiz => quiz.topicId === topic[0].id)
-    console.log(count)
     return(
         <>
             {/* HERO */}
-             <section className="hero">
+             <section className="hero-topic">
                 <div className="container">
-                    <div className="hero__content">
-                        <h1 className="hero__title">
+                    <div className="hero-topic__content">
+                        <h1 className="hero-topic__title">
                             Khám phá các chủ đề
                         </h1>
-                        <p className="hero__desc">
+                        <p className="hero-topic__desc">
                             Chọn một chủ đề và bắt đầu kiểm tra kiến thức lập trình của bạn
                         </p>
                     </div>
@@ -64,36 +56,39 @@ function Topic(){
                                 md={8}
                                 lg={6}
                             >
-                                <Card 
-                                    className="topic__card"
-                                    hoverable
-                                >
-                                    <div className="topic__card-icon">
-                                        <img src={topic.image} alt={topic.name}/>
-                                    </div>
-                                    <div className="topic__card-content">
-                                         <h3>
-                                            {topic.name}
-                                        </h3>
+                                <Link to={"/quizzes/"+topic.id}>
+                                     <Card 
+                                        className="topic__card"
+                                        hoverable
+                                    >
+                                        <div className="topic__card-icon">
+                                            <img src={topic.image} alt={topic.name}/>
+                                        </div>
+                                        <div className="topic__card-content">
+                                            <h3>
+                                                {topic.name}
+                                            </h3>
 
-                                        <p>
-                                            {topic.description}
-                                        </p>
-                                    </div>
-                                    <div className="topic__card-footer">
-                                            
-                                        <span>
-                                            {
-                                                quizzes.filter(
-                                                    quiz => quiz.topicId === topic.id
-                                                ).length
-                                            } quizzes 
-                                        </span>
+                                            <p>
+                                                {topic.description}
+                                            </p>
+                                        </div>
+                                        <div className="topic__card-footer">
+                                                
+                                            <span>
+                                                {
+                                                    quizzes.filter(
+                                                        quiz => quiz.topicId === topic.id
+                                                    ).length
+                                                } quizzes 
+                                            </span>
 
-                                        <RightOutlined />
+                                            <RightOutlined />
 
-                                    </div>
-                                </Card>
+                                        </div>
+                                    </Card>
+                                </Link>
+                               
                             </Col>
                         ))}
                     </Row>

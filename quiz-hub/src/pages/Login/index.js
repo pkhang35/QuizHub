@@ -11,7 +11,7 @@ import {
     MailOutlined,
     LockOutlined,
 } from "@ant-design/icons";
-import { useNavigate} from "react-router-dom"
+import { useLocation, useNavigate} from "react-router-dom"
 import {useDispatch} from "react-redux";
 import { emailRule, rules } from "../../contants";
 import logoSmall from "../../assets/images/logo_small.png"
@@ -24,6 +24,10 @@ function Login(){
     const navigate=useNavigate()
     const dispatch=useDispatch();
     const [messageApi, contextHolder] = message.useMessage();
+    const location = useLocation();
+    console.log(location);
+    const from = location.state?.from?.pathname || "/";
+    console.log(from);
     const handleFinish= async(values)=>{
         const response= await login(values.email, values.password);
         if(response){
@@ -33,7 +37,9 @@ function Login(){
             setCookie("email",response[0].email,1);
             setCookie("token",response[0].token,1);
             dispatch(loading(true))
-            navigate("/")
+            // navigate("/")
+            // quay lại trang user đang muốn vào
+            navigate(from, { replace: true });
         }else{
             messageApi.open({
                 type: 'error',

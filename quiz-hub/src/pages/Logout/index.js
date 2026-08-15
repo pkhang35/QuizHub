@@ -7,10 +7,9 @@ import { loading } from "../../actions";
 function Logout(){
     const navigate =useNavigate()
     const dispatch=useDispatch()
-     
+    deleteAllCookies();
+    dispatch(loading(false))
     useEffect(()=>{
-        deleteAllCookies();
-        dispatch(loading(false))
        navigate("/login")
     },[])
     return(

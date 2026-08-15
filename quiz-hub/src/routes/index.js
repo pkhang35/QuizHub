@@ -6,6 +6,8 @@ import Login from "../pages/Login";
 import Logout from "../pages/Logout";
 import Register from "../pages/Register";
 import Topic from "../pages/Topic";
+import Quiz from "../pages/Quiz";
+import Question from "../pages/Question/inde";
 
 export const routes=[
     {
@@ -33,10 +35,19 @@ export const routes=[
             path:"/logout",
             element:<Logout/>,
         },
+        {
+            path:"/quizzes/:id",
+            element:<Quiz/>,
+        },
+        
         
         {
             element:<PrivateRoutes/>,
             children:[
+                {
+                    path:"/questions/:quizId",
+                    element:<Question/>,
+                },
                 {
                     path:"/answers",
                     element:<Answers/>,

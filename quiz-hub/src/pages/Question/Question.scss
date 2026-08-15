@@ -1,0 +1,177 @@
+.question{
+    min-height: 100vh;
+    padding: 50px 0 80px;
+    background-color: #f5f7fc;
+    &__header{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto 20px;
+
+    }
+    &__header h1{
+        margin: 0;
+        color: #1f2937;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    &__counter {
+        color: #574ff5;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__progress{
+        max-width: 900px;
+        margin: 0 auto 25px;
+        .ant-progress{
+              line-height: 1;
+        }
+
+        .ant-progress-rail {
+
+            background-color: #e5e7eb;
+        }
+        .ant-progress-track {
+
+            background: linear-gradient(
+                90deg,
+                #574ff5,
+                #7c3aed
+            );
+        }
+    }
+
+
+     &__card {
+        max-width: 900px;
+        margin: 0 auto;
+        border: none;
+        border-radius: 16px;
+        box-shadow:
+            0 10px 30px rgba(0, 0, 0, 0.06);
+        .ant-card-body {
+            padding: 35px 40px 25px;
+        }
+     }
+     &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        .ant-tag {
+            margin: 0;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+     }
+     &__title {
+        margin: 0 0 30px;
+        color: #1f2937;
+        font-size: 23px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+     &__answers {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+    &__answer {
+        display: flex !important;
+        align-items: center;
+        width: 100%;
+        min-height: 62px;
+        margin: 0 !important;
+        padding: 10px 15px !important;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        background-color: #fff;
+        transition: all 0.2s ease;
+        &:hover {
+            border-color: #574ff5;
+            background-color: #faf9ff;
+        }
+        &.ant-radio-wrapper-checked {
+            border-color: #574ff5;
+            background-color: #f4f2ff;
+            box-shadow:
+                0 0 0 1px rgba(
+                    87,
+                    79,
+                    245,
+                    0.08
+                );
+        }
+        .ant-radio {
+            margin-right: 10px;
+        }
+        
+    }
+    &__answer-letter {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        margin-right: 12px;
+        border-radius: 50%;
+        background-color: #f1f2f6;
+        color: #6b7280;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    &__answer-text {
+        color: #374151;
+        font-size: 15px;
+    }
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-top: 22px;
+        border-top: 1px solid #eeeeee;
+    }
+    &__footer button {
+        height: 42px;
+        padding: 0 20px;
+        border-radius: 8px;
+    }
+    &__loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 70vh;
+        color: #6b7280;
+    }
+    @media (max-width: 768px) {
+        padding: 30px 0 50px;
+        &__header {
+            align-items: flex-start;
+            gap: 10px;
+            flex-direction: column;
+        }
+        &__header h1 {
+            font-size: 23px;
+        }
+        &__card {
+            .ant-card-body {
+                padding: 25px 18px 20px;
+            }
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__answer {
+            min-height: 56px;
+        }
+        &__footer {
+            gap: 10px;
+        }
+        &__footer button {
+            flex: 1;
+        }
+    }
+}
