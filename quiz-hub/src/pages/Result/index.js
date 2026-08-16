@@ -53,25 +53,14 @@ function Result() {
     };
 
     const handleReview = () => {
-        navigate(`/answers/${quizId}`, {
-            state: {
-                questions,
-                answers
-            }
-        });
+        navigate(`/answers/${quizId}`);
     };
 
     return (
         <div className="result">
-
             <div className="container">
-
                 <Card className="result__card">
-
-                    {/* HEADER */}
-
                     <div className="result__header">
-
                         <div className="result__icon">
                             <CheckCircleOutlined />
                         </div>
@@ -87,18 +76,13 @@ function Result() {
 
                     </div>
 
-
-                    {/* SCORE */}
-
                     <div className="result__score">
-
                         <Progress
                             type="circle"
                             percent={percent}
                             size={220}
                             format={() => null} //ko vẽ %
                         />
-
                         <div className="result__score-text">
 
                             <strong>

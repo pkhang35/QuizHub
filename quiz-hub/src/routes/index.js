@@ -1,6 +1,5 @@
 import PrivateRoutes from "../components/PrivateRoutes";
 import LayoutDefault from "../layout/LayoutDefault";
-import Answers from "../pages/Answers";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Logout from "../pages/Logout";
@@ -9,6 +8,8 @@ import Topic from "../pages/Topic";
 import Quiz from "../pages/Quiz";
 import Question from "../pages/Question";
 import Result from "../pages/Result";
+import AnswerDetail from "../pages/Answers/AnswerDetail";
+import Answers from "../pages/Answers";
 
 export const routes=[
     {
@@ -56,6 +57,10 @@ export const routes=[
                 {
                     path:"/answers",
                     element:<Answers/>,
+                },
+                {
+                    path:"/answers/:quizId",
+                    element:<AnswerDetail/>,
                 },
                
             ]
