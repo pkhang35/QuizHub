@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getQuestionQuizId } from "../../services/questionsServices";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Button, Card, message, Progress, Radio, Tag } from 'antd';
 import {
     ArrowLeftOutlined,
@@ -11,6 +11,7 @@ import { createAnswers } from "../../services/answersServices";
 import { getCookie } from "../../helpers/cookie";
 function Question(){
     const params=useParams();
+    const navigate=useNavigate();
     const [questions,setQuestions]=useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -71,11 +72,9 @@ function Question(){
         if (currentIndex < questions.length - 1) {
             const nextIndex = currentIndex + 1;
             const nextQuestion = questions[nextIndex];
-            
             const savedAnswer = answers.find(
                 item => item.questionId === nextQuestion.id
             );
-            console.log(savedAnswer);
             setCurrentIndex(nextIndex);
             if (savedAnswer) {
                 setSelectedAnswer(savedAnswer.answer);
@@ -83,9 +82,6 @@ function Question(){
                 setSelectedAnswer(null);
             }
         } else {
-            // messageApi.success(
-            //     "Bạn đã hoàn thành bài quiz!"
-            // );
             handleSubmitQuiz();
         }
     };
@@ -112,9 +108,12 @@ function Question(){
         };
         const response = await createAnswers(data);
         if (response) {
-            messageApi.success(
-                "Bạn đã hoàn thành bài quiz!"
-            );
+            navigate(`/result/${params.quizId}`, {
+                state: {
+                    questions: questions,
+                    answers: answers
+                }
+            });
         }
     }
     return(

@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import Topic from "../pages/Topic";
 import Quiz from "../pages/Quiz";
 import Question from "../pages/Question";
+import Result from "../pages/Result";
 
 export const routes=[
     {
@@ -47,6 +48,10 @@ export const routes=[
                 {
                     path:"/questions/:quizId",
                     element:<Question/>,
+                },
+                {
+                    path:"/result/:quizId",
+                    element:<Result/>,
                 },
                 {
                     path:"/answers",
